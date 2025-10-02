@@ -17,9 +17,9 @@ namespace Tyuiu.LavrentevVA.Sprint2.Task3.V11.Lib
             }
             else if (x > -15 && x < 0)
             {
-                y = Math.Pow(1 + 1 / x * x, x);
+                y = Math.Pow(1 + 1 / (x * x), x);
             }
-            else if (x < -15) ;
+            else if (x < -15) 
             {
                 y = x + 10 * x - 1 / x;
             }
