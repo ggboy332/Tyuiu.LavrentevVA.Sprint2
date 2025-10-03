@@ -6,7 +6,7 @@ namespace Tyuiu.LavrentevVA.Sprint2.Task7.V8.Lib
         public bool CheckDotInShadedArea(double x, double y)
         {
             bool res;
-            if (x >= -2 && x <= 3 && y >= x && y <= 4)
+            if (x >= -2 && x <= 3 && y >= -x && y <= 4)
             {
                 res = true;
             }
