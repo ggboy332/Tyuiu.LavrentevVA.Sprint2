@@ -5,7 +5,7 @@ using System.Linq;
 using System.Runtime.ConstrainedExecution;
 using System.Text;
 
-namespace Tyuiu.LavrentevVA.Sprint2.Task7.V8
+namespace Tyuiu.LavrentevVA.Sprint2.Task6.V4
 {
     internal class Program
     {
@@ -18,25 +18,26 @@ namespace Tyuiu.LavrentevVA.Sprint2.Task7.V8
             Console.WriteLine("***********************************************************************************************************************************************************************************************************************************************");
 
             Console.WriteLine(" Введите значение X: ");
-            double X = Convert.ToDouble(Console.ReadLine());
+            double x = Convert.ToDouble(Console.ReadLine());
+
             Console.WriteLine(" Введите значение Y: ");
             double y = Convert.ToDouble(Console.ReadLine());
 
-            bool res = ds.CheckDotInShadedArea(X, y);
+            bool res = ds.CheckDotInShadedArea(x, y);
 
             Console.WriteLine("*********************************************************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                                                                        *");
             Console.WriteLine("*********************************************************************************************************************");
 
+
             if (res)
             {
-                Console.WriteLine("Точка находитья в заштрихованной области");
+                Console.WriteLine("Точка находится в закрашенной области");
             }
             else
             {
-                Console.WriteLine("Точка находитья не в заштрихованной области");
+                Console.WriteLine("Точка находится не в закрашенной области");
             }
-            
 
 
             Console.ReadKey();

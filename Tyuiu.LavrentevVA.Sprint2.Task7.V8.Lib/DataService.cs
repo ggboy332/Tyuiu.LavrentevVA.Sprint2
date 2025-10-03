@@ -16,9 +16,6 @@ namespace Tyuiu.LavrentevVA.Sprint2.Task7.V8.Lib
             }
 
             return res;
-
         }
     }
 }
-
-        

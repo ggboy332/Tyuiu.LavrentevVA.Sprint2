@@ -13,10 +13,10 @@ namespace Tyuiu.LavrentevVA.Sprint2.Task7.V8.Test
             double y = 2;
 
             bool res = ds.CheckDotInShadedArea(x, y);
-
             bool wait = true;
 
             Assert.AreEqual(wait, res);
+
         }
     }
 }
