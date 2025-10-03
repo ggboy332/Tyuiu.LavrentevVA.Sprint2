@@ -9,8 +9,8 @@ namespace Tyuiu.LavrentevVA.Sprint2.Task7.V8.Test
         {
             DataService ds = new DataService();
 
-            double x = 2;
-            double y = 2;
+            double x = 3;
+            double y = 1;
 
             bool res = ds.CheckDotInShadedArea(x, y);
             bool wait = true;
